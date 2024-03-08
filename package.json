@@ -20,7 +20,6 @@
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
     "@types/three": "^0.155.0",
-    "fbx2gltf": "^0.9.7-p1",
     "font-awesome": "^4.7.0",
     "rxjs": "~7.5.0",
     "three": "^0.155.0",
