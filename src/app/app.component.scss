@@ -1,0 +1,103 @@
+.container {
+  height: 98vh;
+  width: 99%;
+  display: inline-flex;
+}
+.settings {
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  .panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    label {
+      text-align: center;
+      background-color: blueviolet;
+      color: white;
+      border: 1px solid purple;
+      border-radius: 5%;
+      flex: 0 0 2%;
+      cursor: pointer;
+    }
+    div {
+      text-align: center;
+      border: 1px solid purple;
+      background-color: blueviolet;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      justify-content: space-between;
+    }
+    div.selected {
+      text-align: center;
+      border: 1px solid purple;
+      background-color: white;
+      color: black;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      justify-content: space-between;
+    }
+    p {
+      text-align: center;
+      background-color: blueviolet;
+      color: white;
+      border: 1px solid purple;
+      border-radius: 5%;
+    }
+    i {
+      cursor: pointer;
+    }
+  }
+}
+.content {
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+::ng-deep .annotation {
+  position: absolute;
+  width: fit-content;
+  background-color: blueviolet;
+  border: 1px solid purple;
+  border-radius: 5%;
+  color: white;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+.menu button,
+.menu input {
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid purple;
+  border-radius: 5%;
+  cursor: pointer;
+  color: white;
+}
